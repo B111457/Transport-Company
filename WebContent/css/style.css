@@ -1,0 +1,178 @@
+@CHARSET "ISO-8859-1";
+
+* {box-sizing:border-box}
+body {font-family: Verdana,sans-serif;}
+.mySlides {display:none}
+
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: visible;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    	display: block;
+    	color: white;
+    	text-align: center;
+    	padding: 14px 16px;
+    	text-decoration: none;
+    	font-size: large;
+}
+
+li a:hover {
+    background-color: #111;
+}
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+body
+{
+	background-image: url("../images/truck.jpg");
+	background-color: aqua;
+	background-size: 1500px 800px;
+	margin: 0 auto;
+}
+#content
+{
+	width:800px;
+	margin: 0 auto;
+	margin-top: 34px;
+	margin-bottom: 32px;
+	padding-bottom: 12px;
+	background-color: aqua;
+}
+#header
+{
+	width: 800px;
+	margin: 0 auto;
+}
+#logo
+{
+	background-image: url("../images/logo.png");
+	float:left;
+	margin: 10px;
+	margin-left:-250px;
+	height: 125px;
+	width: 125px;
+}
+#headtitle
+{
+	margin: 10px;
+	padding: 0px;
+	margin-bottom: 0px;
+	text-align: center;
+	font-family: Tahima;
+	font-size:40px;
+	color: #00f;
+}
+#subtitle
+{
+	margin-top: 0px;
+	padding-bottom: 7px;
+	padding-top: 0px;
+	font-family: Tahima;
+	font-size: 20px;
+	text-align: center;
+	margin-right: 30px;
+}
+.mymenu
+{
+	text-align:right;
+	list-style: circle;
+	margin-left:-200px;
+	
+}
+.menuitem
+{
+	display: inline-block;
+}
+.menulink
+{
+	background: black;
+	color: white;
+	font-family: Tahima;
+	font-size: 20px;
+	padding: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
+	border-radius:30px;
+	text-decoration: none;
+	border: black 1px solid;
+}
+.menulink:HOVER {
+	color:black;
+	background:green;
+	font-family: Tahima;
+	font-size: 20px;
+	padding: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
+	border-radius:30px;
+	text-decoration: none;
+	border: black 1px solid;
+	
+	
+}
+#footer
+{
+	color: #00f;
+	position: fixed;
+	bottom:0px;
+	text-align: center;
+	margin: 0px;
+	display: block;
+	right: 0px;
+	left: 0px;
+}
+#foot
+{
+	font-size: 16px;
+	font-family: Tahima;
+}
+#foot1
+{
+	font-size: 12px;
+	font-weight: bold;
+}
+nav{
+	height:42px;
+	background-color: #4CAF50;
+}
+nav ul{
+	list-style: none;
+}
+nav ul li a{
+		float: left;
+		text-decoration: none;
+		color:white;
+		padding:0px 40px;
+		text-align: center;
+		line-height: 42px;
+		height: 42px;
+	}
+	nav ul li a:hover{
+	background-color: #333;
+	color:white;
+	
+	}
+
+
+
+
+
+
+
+

@@ -1,0 +1,1 @@
+<jsp:forward page="Servlet1"></jsp:forward>
